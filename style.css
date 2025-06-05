@@ -1,12 +1,10 @@
 * {
     margin: 0;
     padding: 0;
-    
-    
 }
 
 body {
-    font-family: 'outfit', sans-serif;
+    font-family: 'Outfit', sans-serif;
     background-color: hsl(212, 45%, 89%);
     min-height: 100vh;
     display: flex;
@@ -16,8 +14,8 @@ body {
 
 
 .qr-code img {
-  width: 100%;
-  height: auto;
+  width: 250%;
+  height: 150%;
   object-fit: cover;
   border-radius: 10px;
 }
@@ -27,13 +25,10 @@ body {
     margin: 0 auto;
 }
 
-.card h2 {
-margin-bottom: 20px;
-}    
 .card {
     background-color: hsl(0, 0%, 100%);
-    padding: 100px;
-    border-radius: 16px;
+    padding: 18px;
+    border-radius: 17px;
     text-align: center;
 }
 

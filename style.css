@@ -27,7 +27,7 @@ body {
 
 .card {
     background-color: hsl(0, 0%, 100%);
-    padding: 5px;
+    padding: 8px;
     border-radius: 30px;
     text-align: center;
 }

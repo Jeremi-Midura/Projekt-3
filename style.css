@@ -27,9 +27,11 @@ border-radius: 10px;
 card h2 {
 font-size: 1.5rem;
 color: hsl(218, 44%, 22%);
+margin-bottom: 10px;
 }
 
 card p {
 font-size: 1rem;
 color: hsl(220, 15%, 55%);
+margin-top: 0
 }

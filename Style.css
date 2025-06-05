@@ -29,12 +29,3 @@ body {
     border-radius: 12px;
 }
 
-.text {
-    padding: 22px 10px; 
-    color: hsl(220, 15%, 55%);
-}
-
-.text2 h2 {
-    color: hsl(218, 44%, 22%);
-    padding-bottom: 15px;
-}

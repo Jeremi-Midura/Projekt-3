@@ -16,8 +16,8 @@ body {
 
 
 .qr-code img {
-  width: 50%;
-  height: 50%;
+  width: 100%;
+  height: auto;
   object-fit: cover;
   border-radius: 10px;
 }
@@ -27,6 +27,9 @@ body {
     margin: 0 auto;
 }
 
+.card h2 {
+margin-bottom: 20px;
+}    
 .card {
     background-color: hsl(0, 0%, 100%);
     padding: 100px;

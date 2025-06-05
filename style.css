@@ -1,6 +1,8 @@
 * {
     margin: 0;
-    padding: 20;
+    padding: 0;
+    box-sizing: border-box;
+    
 }
 
 body {
@@ -28,7 +30,7 @@ body {
 .card {
     background-color: hsl(0, 0%, 100%);
     padding: 100px;
-    border-radius: 70px;
+    border-radius: 16px;
     text-align: center;
 }
 

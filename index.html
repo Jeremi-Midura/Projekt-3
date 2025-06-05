@@ -1,19 +1,37 @@
-<!DOCTYPE HTML>
-<html lang="pl">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>Kod QR z Frontend Mentor</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <div class="card">
-            <div class="qr-code">
-               <img src="images/image-qr-code.png" alt="QR Code">
-            </div>
-            <h2>Improve your front-end skills by building projects</h2>
-            <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
-        </div>
+
+  <main class="qr-container">
+
+    <div class="qr-img-wrapper">
+      <img class="qr-image" src="./images/image-qr-code.png" alt="QR Code"/>
     </div>
+
+        <div class="qr-texts-wrapper">
+          <h1 class="qr-title">
+              Improve your front-end <br/>
+              skills by building projects
+          </h1>
+
+          <p class="qr-text">
+              Scan the QR code to visit Frontend
+              Mentor and take your coding skills to
+              the next level
+          </p>
+        </div>
+
+  </main>
+ 
+
 </body>
 </html>
